@@ -1,0 +1,15 @@
+.containter_galley {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 300px);
+    grid-column-gap: 15px;
+    grid-row-gap: 22px;
+}
+.containter_galley__img img {
+    width: 100%;
+    height: 100%;
+}
+.containter_galley__img.bottom
+{ 
+    grid-area: 2 / 1 / 3 / 4;
+}
